@@ -3,6 +3,8 @@ body {
 }
 #header-section {
     text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
 
 }
 #paragraph-header{
@@ -10,11 +12,32 @@ body {
 
 }
 #player-one {
-    margin:auto;
-    margin-left: 20px;
+    float: left;
+    margin-left: 100px;
     border-style: solid;
     border-color: black;
     height: 200px;
     width: 200px;
     text-align: center;
+}
+#fight-grounds {
+    position: absolute;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+}
+#player-two {
+    float: right;
+    margin-left: 200px;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
